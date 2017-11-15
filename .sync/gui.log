@@ -1,0 +1,348 @@
+
+
+71107-080309.133 Version: 1.4.17.5360 (x64)
+71107-080309.133 Install type: Current user
+71107-080309.133 Process id: 6252
+71107-080309.133 Occupied folder: "D:\xampp\htdocs\parser"
+71107-080309.180 AddTrayIcon: succeeded
+71107-080309.258 Test Start
+71107-080309.790 Keyboard hook is installed
+71107-080311.133 UserInfo OK
+71107-080311.133 Network activity enabled
+71107-080311.133 Country: ru
+71107-080311.212 Prepare Start Core
+71107-080311.368 Prepare Start Core: Changing root folder completed.
+71107-080311.368 Core Start
+71107-080312.462 CMainFrame::on_core_start()
+71107-080312.946 Machine info: OK
+71107-080312.946 OS: win 10.0.15063 
+71107-080312.946 Manufacter: LENOVO
+71107-080312.946 Product: 20388
+71107-080312.946 SerialNumber: 3445548101569
+71107-080312.946 Test Start
+71107-080312.946 Core Started
+71107-080312.946 Core resumed
+71107-080312.993 OnCheck()
+71107-080313.008 Quota OK
+71107-080313.790 UserInfo OK
+71107-080313.790 Country: ru
+71107-080313.993 Prepare Start Core
+71107-080314.087 Prepare Start Core: Core already running.
+71107-080314.180 OnBusy()
+71107-080314.587 OnCheck()
+71107-080315.821 OnBusy()
+71107-080318.618 Trash OK: trash_is_empty=0
+71107-080320.962 OnCheck()
+71107-080337.649 OnIdle()
+71107-083404.148 OnCheck()
+71107-083404.961 OnBusy()
+71107-083405.225 OnIdle()
+71107-090420.291 OnCheck()
+71107-090421.419 OnBusy()
+71107-090421.636 OnIdle()
+71107-091016.280 OnCheck()
+71107-091017.487 OnBusy()
+71107-091017.823 OnIdle()
+71107-094107.766 OnCheck()
+71107-094108.587 OnBusy()
+71107-094108.812 OnIdle()
+71107-172015.384 IPv4 network no traffic
+71107-172015.452 Network activity disabled
+71107-172015.457 IPv4 changed
+71107-172015.457 Test Start
+71107-172016.470 ERROR: UserInfo Error
+71107-172016.470 Network activity disabled
+71107-172026.461 Test Start
+71107-172027.291 UserInfo OK
+71107-172027.292 Network activity enabled
+71107-172027.367 Country: ru
+71107-172027.403 Prepare Start Core
+71107-172027.544 Prepare Start Core: Core already running.
+71107-172027.544 OnIdle()
+71107-172027.640 OnCheck()
+71107-172028.057 OnBusy()
+71107-172028.205 OnIdle()
+71107-175118.313 OnCheck()
+71107-175119.840 OnBusy()
+71107-175120.079 OnIdle()
+71107-182130.594 OnCheck()
+71107-182131.215 OnBusy()
+71107-182131.431 OnIdle()
+71107-185225.915 OnCheck()
+71107-185226.465 OnBusy()
+71107-185226.654 OnIdle()
+71107-192327.964 OnCheck()
+71107-192451.836 OnBusy()
+71107-192452.058 OnIdle()
+71107-195341.497 OnCheck()
+71107-195342.459 OnBusy()
+71107-195342.724 OnIdle()
+71107-202442.796 OnCheck()
+71107-202445.514 OnBusy()
+71107-202445.765 OnIdle()
+71107-205534.827 OnCheck()
+71107-205537.531 OnBusy()
+71107-205537.821 OnIdle()
+71107-212006.488 OnCheck()
+71107-212006.794 OnBusy()
+71107-212006.919 OnIdle()
+71107-215102.041 OnCheck()
+71107-215103.237 OnBusy()
+71107-215103.512 OnIdle()
+71107-222115.191 OnCheck()
+71107-222116.993 OnBusy()
+71107-222117.278 OnIdle()
+71108-084925.198 IPv4 network no traffic
+71108-084925.201 Network activity disabled
+71108-084925.203 IPv4 changed
+71108-084925.203 Test Start
+71108-084925.207 ERROR: UserInfo Error
+71108-084925.207 Network activity disabled
+71108-084935.199 Test Start
+71108-084935.738 UserInfo OK
+71108-084935.738 Network activity enabled
+71108-084935.873 Country: ru
+71108-084935.886 Prepare Start Core
+71108-084936.114 Prepare Start Core: Core already running.
+71108-084936.114 OnIdle()
+71108-084936.119 OnCheck()
+71108-084936.244 OnBusy()
+71108-084936.406 OnIdle()
+71108-092026.078 OnCheck()
+71108-092026.397 OnBusy()
+71108-092026.521 OnIdle()
+71108-095038.562 OnCheck()
+71108-095039.125 OnBusy()
+71108-095039.421 OnIdle()
+71108-102134.532 OnCheck()
+71108-102135.357 OnBusy()
+71108-102135.677 OnIdle()
+71108-105226.318 OnCheck()
+71108-105227.170 OnBusy()
+71108-105227.348 OnIdle()
+71108-105249.910 OnExit
+71108-105250.301 Core Stop: begin
+
+
+71108-131231.239 Version: 1.4.17.5360 (x64)
+71108-131231.239 Install type: Current user
+71108-131231.239 Process id: 3580
+71108-131231.239 Occupied folder: "D:\xampp\htdocs\parser"
+71108-131231.302 AddTrayIcon: succeeded
+71108-131231.645 Test Start
+71108-131232.661 Keyboard hook is installed
+71108-131234.958 Machine info: OK
+71108-131234.958 OS: win 10.0.15063 
+71108-131234.958 Manufacter: LENOVO
+71108-131234.958 Product: 20388
+71108-131234.958 SerialNumber: 3445548101569
+71108-131244.645 ERROR: UserInfo Error
+71108-131244.645 Network activity disabled
+71108-131254.640 Test Start
+71108-131306.673 ERROR: UserInfo Error
+71108-131306.673 Network activity disabled
+71108-131316.673 Test Start
+71108-131316.673 ERROR: UserInfo Error
+71108-131316.673 Network activity disabled
+71108-131716.676 Test Start
+71108-131728.685 ERROR: UserInfo Error
+71108-131728.685 Network activity disabled
+71108-132128.681 Test Start
+71108-132140.685 ERROR: UserInfo Error
+71108-132140.685 Network activity disabled
+71108-132316.183 IPv4 network no traffic
+71108-132316.185 Network activity disabled
+71108-132540.687 Test Start
+71108-132552.693 ERROR: UserInfo Error
+71108-132552.693 Network activity disabled
+71108-154111.499 Test Start
+71108-154111.515 ERROR: UserInfo Error
+71108-154111.515 Network activity disabled
+71108-154117.827 IPv4 changed
+71108-154117.827 Test Start
+71108-154121.108 UserInfo OK
+71108-154121.108 Network activity enabled
+71108-154121.187 Country: ru
+71108-154121.265 Prepare Start Core
+71108-154121.499 Prepare Start Core: Changing root folder completed.
+71108-154121.499 Core Start
+71108-154122.999 CMainFrame::on_core_start()
+71108-154123.296 Core Started
+71108-154123.296 Core resumed
+71108-154123.546 OnCheck()
+71108-154124.062 Quota OK
+71108-154125.312 OnBusy()
+71108-154125.718 OnIdle()
+71108-154129.446 Trash OK: trash_is_empty=0
+71108-161216.220 OnCheck()
+71108-161217.943 OnBusy()
+71108-161218.317 OnIdle()
+71108-164228.221 OnCheck()
+71108-164229.390 OnBusy()
+71108-164230.028 OnIdle()
+71108-184402.950 IPv4 network no traffic
+71108-184402.958 Network activity disabled
+
+
+71108-185018.120 Version: 1.4.17.5360 (x64)
+71108-185018.120 Install type: Current user
+71108-185018.120 Process id: 6504
+71108-185018.120 Occupied folder: "D:\xampp\htdocs\parser"
+71108-185018.214 AddTrayIcon: succeeded
+71108-185018.354 Test Start
+71108-185019.198 Keyboard hook is installed
+71108-185019.979 Machine info: OK
+71108-185019.979 OS: win 10.0.15063 
+71108-185019.979 Manufacter: LENOVO
+71108-185019.979 Product: 20388
+71108-185019.979 SerialNumber: 3445548101569
+71108-185020.104 UserInfo OK
+71108-185020.104 Network activity enabled
+71108-185020.104 Country: ru
+71108-185020.104 Prepare Start Core
+71108-185020.323 Prepare Start Core: Changing root folder completed.
+71108-185020.323 Core Start
+71108-185020.745 CMainFrame::on_core_start()
+71108-185021.042 Core Started
+71108-185021.042 Core resumed
+71108-185021.073 OnCheck()
+71108-185021.495 Quota OK
+71108-185022.526 OnBusy()
+71108-185022.714 OnIdle()
+71108-185026.542 Trash OK: trash_is_empty=0
+71108-185035.026 OnExit
+71108-185035.167 Core Stop: begin
+
+
+71112-071043.589 Version: 1.4.17.5360 (x64)
+71112-071043.589 Install type: Current user
+71112-071043.589 Process id: 900
+71112-071043.589 Occupied folder: "D:\xampp\htdocs\parser"
+71112-071043.776 AddTrayIcon: succeeded
+71112-071044.073 Test Start
+71112-071046.417 Machine info: OK
+71112-071046.417 OS: win 10.0.15063 
+71112-071046.417 Manufacter: LENOVO
+71112-071046.417 Product: 20388
+71112-071046.417 SerialNumber: 3445548101569
+71112-071046.417 Keyboard hook is installed
+71112-071047.276 UserInfo OK
+71112-071047.276 Network activity enabled
+71112-071047.276 Country: ru
+71112-071047.292 Prepare Start Core
+71112-071047.479 Prepare Start Core: Changing root folder completed.
+71112-071047.479 Core Start
+71112-071048.120 CMainFrame::on_core_start()
+71112-071048.276 Core Started
+71112-071048.276 Core resumed
+71112-071048.308 OnCheck()
+71112-071048.573 Quota OK
+71112-071049.479 OnBusy()
+71112-071049.620 OnIdle()
+71112-071053.792 Trash OK: trash_is_empty=0
+71112-071117.464 OnExit
+71112-071117.589 Core Stop: begin
+
+
+71112-194611.312 Version: 1.4.17.5360 (x64)
+71112-194611.312 Install type: Current user
+71112-194611.312 Process id: 7848
+71112-194611.312 Occupied folder: "D:\xampp\htdocs\parser"
+71112-194611.437 AddTrayIcon: succeeded
+71112-194611.764 Test Start
+71112-194612.991 Keyboard hook is installed
+71112-194615.845 Machine info: OK
+71112-194615.845 OS: win 10.0.15063 
+71112-194615.845 Manufacter: LENOVO
+71112-194615.845 Product: 20388
+71112-194615.845 SerialNumber: 3445548101569
+71112-194622.204 UserInfo OK
+71112-194622.204 Network activity enabled
+71112-194622.622 Country: ru
+71112-194622.905 Prepare Start Core
+71112-194624.886 Prepare Start Core: Changing root folder completed.
+71112-194624.889 Core Start
+71112-194628.640 CMainFrame::on_core_start()
+71112-194628.937 Core Started
+71112-194628.937 Core resumed
+71112-194629.125 OnCheck()
+71112-194630.557 Quota OK
+71112-194638.068 OnBusy()
+71112-194638.068 Trash OK: trash_is_empty=0
+71112-194833.427 OnCheck()
+71112-194856.948 OnIdle()
+71112-200909.106 OnExit
+71112-200909.249 Core Stop: begin
+
+
+71112-200930.334 Version: 1.4.17.5360 (x64)
+71112-200930.334 Install type: Current user
+71112-200930.334 Process id: 5096
+71112-200930.334 Occupied folder: "D:\xampp\htdocs\parser"
+71112-200930.446 AddTrayIcon: succeeded
+71112-200930.681 Test Start
+71112-200930.681 Keyboard hook is installed
+71112-200931.916 UserInfo OK
+71112-200931.916 Network activity enabled
+71112-200931.916 Country: ru
+71112-200931.931 Prepare Start Core
+71112-200932.334 Prepare Start Core: Changing root folder completed.
+71112-200932.334 Core Start
+71112-200932.448 CMainFrame::on_core_start()
+71112-200932.630 Machine info: OK
+71112-200932.630 OS: win 10.0.15063 
+71112-200932.630 Manufacter: LENOVO
+71112-200932.630 Product: 20388
+71112-200932.631 SerialNumber: 3445548101569
+71112-200932.631 Test Start
+71112-200932.632 Core Started
+71112-200932.632 Core resumed
+71112-200932.635 OnCheck()
+71112-200934.449 Quota OK
+71112-200934.582 UserInfo OK
+71112-200934.582 Country: ru
+71112-200934.582 Prepare Start Core
+71112-200934.728 Prepare Start Core: Core already running.
+71112-200936.267 OnBusy()
+71112-200936.797 OnIdle()
+71112-200938.580 Trash OK: trash_is_empty=0
+71112-201033.049 OnExit
+71112-201033.245 Core Stop: begin
+
+
+71115-180029.713 Version: 1.4.17.5360 (x64)
+71115-180029.713 Install type: Current user
+71115-180029.713 Process id: 7408
+71115-180029.713 Occupied folder: "D:\xampp\htdocs\parser"
+71115-180030.025 AddTrayIcon: succeeded
+71115-180031.349 Test Start
+71115-180034.052 Desktop link clicked
+71115-180034.208 Keyboard hook is installed
+71115-180036.693 UserInfo OK
+71115-180036.693 Network activity enabled
+71115-180037.359 Country: ru
+71115-180037.687 Prepare Start Core
+71115-180038.421 Prepare Start Core: Changing root folder completed.
+71115-180038.593 Core Start
+71115-180040.896 CMainFrame::on_core_start()
+71115-180041.396 Machine info: OK
+71115-180041.396 OS: win 10.0.15063 
+71115-180041.396 Manufacter: LENOVO
+71115-180041.396 Product: 20388
+71115-180041.396 SerialNumber: 3445548101569
+71115-180041.396 Test Start
+71115-180041.396 Core Started
+71115-180041.396 Core resumed
+71115-180041.599 OnCheck()
+71115-180042.021 Quota OK
+71115-180042.834 UserInfo OK
+71115-180042.834 Country: ru
+71115-180042.834 Prepare Start Core
+71115-180043.021 Prepare Start Core: Core already running.
+71115-180049.969 Trash OK: trash_is_empty=0
+71115-180050.282 OnBusy()
+71115-180106.675 OnCheck()
+71115-180136.457 OnIdle()
+71115-180213.441 YandexDisk folder changed (settings). Old "D:\xampp\htdocs\parser", new "C:\Users\RB73\Desktop\YD\YandexDisk"
+71115-180213.441 Idled folder: "D:\xampp\htdocs\parser"
+71115-180213.441 Unregistered folder: "D:\xampp\htdocs\parser"

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96c6df61-d613-4c31-bc9b-5fc67a82c50f" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="josrr_cck_store_item_users" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="parser" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2256">
+              <caret line="141" column="77" lean-forward="false" selection-start-line="141" selection-start-column="77" selection-end-line="141" selection-end-column="77" />
+              <folding>
+                <element signature="e#367#1282#0#PHP" expanded="false" />
+                <element signature="e#11164#11456#0#PHP" expanded="false" />
+                <element signature="e#12798#13808#0#PHP" expanded="false" />
+                <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+                <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+                <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+                <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+                <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+                <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+                <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+                <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+                <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+                <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+                <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+                <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$$$$$$$$$$$$</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/.PhpStorm2017.1/phpstorm64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96c6df61-d613-4c31-bc9b-5fc67a82c50f" name="Default" comment="" />
+      <created>1509012747581</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509012747581</updated>
+      <workItem from="1509012753067" duration="847000" />
+      <workItem from="1509099298248" duration="1265000" />
+      <workItem from="1509101549352" duration="254000" />
+      <workItem from="1509101871783" duration="1237000" />
+      <workItem from="1509103189546" duration="1489000" />
+      <workItem from="1509104751709" duration="13244000" />
+      <workItem from="1509696818025" duration="18201000" />
+      <workItem from="1509760679638" duration="7300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="43837000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17296073" sideWeight="0.49331105" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16012084" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1978852" sideWeight="0.50668895" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1810884a-edb4-4e61-945a-e34cbc23c081/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/PDO/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7a4055b6/1810884a-edb4-4e61-945a-e34cbc23c081/test.josrr_regions">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/7a4055b6/1810884a-edb4-4e61-945a-e34cbc23c081/test.josrr_cck_store_item_users">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PhpStorm2017.1/phpstorm64.exe.vmoptions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1577" column="9" lean-forward="false" selection-start-line="1577" selection-start-column="9" selection-end-line="1577" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2256">
+          <caret line="141" column="77" lean-forward="false" selection-start-line="141" selection-start-column="77" selection-end-line="141" selection-end-column="77" />
+          <folding>
+            <element signature="e#367#1282#0#PHP" expanded="false" />
+            <element signature="e#11164#11456#0#PHP" expanded="false" />
+            <element signature="e#12798#13808#0#PHP" expanded="false" />
+            <marker date="1509765357707" expanded="true" signature="1765:1852" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2529:2618" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="2880:2980" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="3279:3368" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="3911:4026" ph="INSERT INTO `josrr_regions`... " />
+            <marker date="1509765357707" expanded="true" signature="4843:4930" ph="SELECT AUTO_... tables" />
+            <marker date="1509765357707" expanded="true" signature="8204:8329" ph="INSERT INTO `josrr_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8204:8353" ph="INSERT INTO `manufacturer`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8653" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8660" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8721" ph="INSERT INTO `josrr_cck_store_item_users`... " />
+            <marker date="1509765357707" expanded="true" signature="8492:8835" ph="INSERT INTO `josrr_cc`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
