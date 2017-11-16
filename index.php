@@ -1,12 +1,12 @@
 <form method="POST">
     <input name="url" type="text"
            value="<?= isset($_REQUEST['url']) ? $_REQUEST['url'] : 'https://www.meb100.ru/navigation#tab_organizations'; ?>"/>
-    <input name="regionNumber" type="text" value="3"/> 27
+    <input name="regionNumber" type="text" value="5"/> 27
     <input type="submit" value="Пошел">
 </form>
 <?php
 
-ini_set('max_execution_time', '1800');
+ini_set('max_execution_time', '3600');
 
 include 'simple_html_dom.php';
 
@@ -20,8 +20,6 @@ function request($url, $post = 0)
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1); // следовать за редиректами
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 30); // таймаут4
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-//    curl_setopt($ch, CURLOPT_COOKIEJAR, dirname(__FILE__) . '/cookie.txt'); // сохранять куки в файл
-//    curl_setopt($ch, CURLOPT_COOKIEFILE, dirname(__FILE__) . '/cookie.txt');
     curl_setopt($ch, CURLOPT_POST, $post !== 0); // использовать данные в post
     if ($post)
         curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
@@ -45,8 +43,10 @@ class parser
         echo $regionNumber . 'Region<br>';
 
         $dbIS = mysqli_connect('localhost', 'root', '', "information_schema");
-        $dbParser = mysqli_connect('localhost', 'root', '', "parser");
-        mysqli_set_charset($dbParser, 'utf8');
+//        $dbParser = mysqli_connect('localhost', 'root', '', "parser");
+        $dbPortal = mysqli_connect('localhost', 'root', '', "portal");
+//        mysqli_set_charset($dbParser, 'utf8');
+        mysqli_set_charset($dbPortal, 'utf8');
 
         /*$sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'josrr_users\'';
         $result = mysqli_query($dbIS, $sql);
@@ -68,21 +68,24 @@ class parser
 
                     echo "<h2>ЭТО РЕГИОН: " . $regionNameDB . "</h2><br/>";
 
-                    $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'josrr_regions\'';
+                    $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'dvg73_regions\'';
                     $result = mysqli_query($dbIS, $sql);
                     $row = mysqli_fetch_assoc($result);
                     $aiRegions = $row['AUTO_INCREMENT'];
                     echo $aiRegions . ' REGION ID<br><hr>';
 
-                    $sql = "INSERT INTO `josrr_regions` (`id`, `title`, `parent_id`) VALUES (NULL, '" . $regionNameDB . "', '1')";
-                    mysqli_query($dbParser, $sql);
+//                    $sql = "INSERT INTO `josrr_regions` (`id`, `title`, `parent_id`) VALUES (NULL, '" . $regionNameDB . "', '1')";
+//                    mysqli_query($dbParser, $sql);
+
+                    $sql = "INSERT INTO `dvg73_regions` (`id`, `region_title`, `parent_id`) VALUES (NULL, '" . $regionNameDB . "', '1')";
+                    mysqli_query($dbPortal, $sql);
 
                     $townUl = $data->find('#tab-organizations ul.list-towns', $i);
 
                     if (count($townUl->find('li a'))) {
                         foreach ($townUl->find('li a') as $town) {
 
-                            $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'josrr_regions\'';
+                            $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'dvg73_regions\'';
                             $result = mysqli_query($dbIS, $sql);
                             $row = mysqli_fetch_assoc($result);
                             $aiTown = $row['AUTO_INCREMENT'];
@@ -93,8 +96,11 @@ class parser
 
                             echo "<h3>ЭТО ГОРОД: " . $townNameDB . "</h3><br/>";
 
-                            $sql = "INSERT INTO `josrr_regions` (`id`, `title`, `parent_id`) VALUES (NULL, '" . $townNameDB . "', '" . $aiRegions . "')";
-                            mysqli_query($dbParser, $sql);
+//                            $sql = "INSERT INTO `josrr_regions` (`id`, `title`, `parent_id`) VALUES (NULL, '" . $townNameDB . "', '" . $aiRegions . "')";
+//                            mysqli_query($dbParser, $sql);
+
+                            $sql = "INSERT INTO `dvg73_regions` (`id`, `region_title`, `parent_id`) VALUES (NULL, '" . $townNameDB . "', '$aiRegions')";
+                            mysqli_query($dbPortal, $sql);
                             /* _____________________________________________________________________________________________________ */
 
                             for ($t = 1; ; $t++) {
@@ -109,7 +115,7 @@ class parser
 
                                         $ii = 1;
 
-                                        echo '<h1>--- ' . $ii . ' ---</h1><hr>';
+//                                        echo '<h1>--- ' . $ii . ' ---</h1><hr>';
                                         $factoryLink100 = "https://www.meb100.ru" . $factoryLink;
                                         echo "<h4>ЭТО ССЫЛКА НА ФАБРИКУ: " . $factoryLink100 . "</h4><br/>";
 
@@ -118,7 +124,7 @@ class parser
                                             $p1 = $p + 1;
 
                                             if ($p == 1) {
-                                                $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'josrr_users\'';
+                                                $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'dvg73_users\'';
                                                 $result = mysqli_query($dbIS, $sql);
                                                 $row = mysqli_fetch_assoc($result);
                                                 $idUser = $row['AUTO_INCREMENT'];
@@ -126,7 +132,6 @@ class parser
                                                 $dataItem = str_get_html(request($this->readUrl($factoryLink)));
 
                                                 $item['title'] = count($dataItem->find('h1')) ? trim($dataItem->find('h1', 0)->plaintext) : '';
-
                                                 $item['logo'] = count($dataItem->find('div.logo-organization img')) ? $dataItem->find('div.logo-organization img', 0) : '';
                                                 $item['address'] = count($dataItem->find('#content__address')) ? trim($dataItem->find('#content__address', 0)->plaintext) : '';
                                                 $item['phone'] = count($dataItem->find('div.content-line')) ? trim($dataItem->find('div.content-line', 0)->plaintext) : '';
@@ -149,18 +154,24 @@ class parser
                                                 echo $item['logo']->src . '<hr>';
                                                 echo $item['description'] . '<br><hr> ';
 
-                                                $sql = "INSERT INTO `josrr_users` (`id`, `name`, `username`, `email`, `registerDate`, `lastvisitDate`) VALUES (NULL, '" . $item['title'] . "', 'id7" . $idUser . "', '" . $idUser . "@test.ru', now(), now())";
-                                                mysqli_query($dbParser, $sql);
+//                                                $sql = "INSERT INTO `josrr_users` (`id`, `name`, `username`, `email`, `registerDate`, `lastvisitDate`) VALUES (NULL, '" . $item['title'] . "', 'id7" . $idUser . "', '" . $idUser . "@test.ru', now(), now())";
+//                                                mysqli_query($dbParser, $sql);
+//
+//                                                $sql = "INSERT INTO `josrr_cck_store_item_users` (`id`, `cck`, `about_me`, `avatar`, `address1`, `region`, `country`,`website`,`website100`) VALUES ('" . $idUser . "', 'pf_user', '" . $item['description'] . "', '" . $logoFileName . "', '" . $item['address'] . "', '" . $aiTown . "', 'RU', '{\"link\":\"" . $item['site'] . "\"}', '" . $factoryLink100 . "')";
+//                                                mysqli_query($dbParser, $sql);
+//
+//                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_user', '" . $idUser . "', '2', 'joomla_user', '" . $idUser . "', '0', '0', '0', now())";
+//                                                mysqli_query($dbParser, $sql);
 
-                                                $sql = "INSERT INTO `josrr_cck_store_item_users` (`id`, `cck`, `about_me`, `avatar`, `address1`, `region`, `country`,`website`,`website100`) VALUES ('" . $idUser . "', 'pf_user', '" . $item['description'] . "', '" . $logoFileName . "', '" . $item['address'] . "', '" . $aiTown . "', 'RU', '{\"link\":\"" . $item['site'] . "\"}', '" . $factoryLink100 . "')";
-                                                mysqli_query($dbParser, $sql);
+                                                $sql = "INSERT INTO `dvg73_users` (`id`, `name`, `username`, `email`, `registerDate`, `lastvisitDate`) VALUES (NULL, 'user7" . $idUser . "', 'id7" . $idUser . "', '" . $idUser . "@test.ru', now(), now())";
+                                                mysqli_query($dbPortal, $sql);
 
-                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_user', '" . $idUser . "', '2', 'joomla_user', '" . $idUser . "', '0', '0', '0', now())";
-                                                mysqli_query($dbParser, $sql);
+                                                $sql = "INSERT INTO `dvg73_factories` (`id`, `user_id`, `factory_title`, `factory_desc`, `factory_logo`, `factory_address`, `factory_region`, `factory_country`,`factory_website`,`website100`) VALUES (NULL, '" . $idUser . "', '" . $item['title'] . "', '" . $item['description'] . "', '" . $logoFileName . "', '" . $item['address'] . "', '" . $aiTown . "', 'RU', '{\"link\":\"" . $item['site'] . "\"}', '" . $factoryLink100 . "')";
+                                                mysqli_query($dbPortal, $sql);
 
                                                 foreach ($item['phone'][0] as $phone) {
-                                                    $sql = "INSERT INTO `josrr_user_phone` (`id`, `user_id`, `phone`) VALUES (NULL, '" . $idUser . "', '" . $phone . "')";
-                                                    mysqli_query($dbParser, $sql);
+                                                    $sql = "INSERT INTO `dvg73_phones` (`id`, `factory_id`, `factory_phone`) VALUES (NULL, '" . $idUser . "', '" . $phone . "')";
+                                                    mysqli_query($dbPortal, $sql);
                                                 }
                                             } else {
                                                 $dataItem = str_get_html(request($this->readUrl($factoryLink . '?page=' . $p)));
@@ -175,41 +186,43 @@ class parser
                                                 $itemProduct['description'] = count($dataProduct->find('div.product-description > p')) ? trim($dataProduct->find('div.product-description > p', 0)->plaintext) : '';
 
 
-                                                echo '<br/><br/>' . $itemProduct['title'] . '<br/>';
-                                                echo '<br/><br/>' . $itemProduct['description'] . '<br/>';
+//                                                echo '<br/><br/>' . $itemProduct['title'] . '<br/>';
+//                                                echo '<br/><br/>' . $itemProduct['description'] . '<br/>';
                                                 //echo $itemProduct['image'] . '<br/><hr/> ';
                                                 $imgProduct = file_get_contents($itemProduct['image']->src);
                                                 $imgFileName = 'images/products/u' . $idUser . 'p' . $ii . '.png';
                                                 file_put_contents($imgFileName, $imgProduct);
 
-                                                $sql = "INSERT INTO `josrr_user_product` (`id`, `title`, `user_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
-                                                mysqli_query($dbParser, $sql);
+//                                                $sql = "INSERT INTO `josrr_user_product` (`id`, `title`, `user_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
+//                                                mysqli_query($dbParser, $sql);
 
-                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `storage_table`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_product', '" . $idUser . "', '0', 'free', '#__user_product', '" . $idUser . "', '0', '0', '0', now())";
-                                                mysqli_query($dbParser, $sql);
+                                                $sql = "INSERT INTO `dvg73_products` (`id`, `product_title`, `factory_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
+                                                mysqli_query($dbPortal, $sql);
+
+//                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `storage_table`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_product', '" . $idUser . "', '0', 'free', '#__user_product', '" . $idUser . "', '0', '0', '0', now())";
+//                                                mysqli_query($dbParser, $sql);
 
                                                 $ii++;
 
-                                                //break;
+//                                                break;
                                             }
 
-                                            //break;
+//                                            break;
 
                                             echo "<hr>";
 
                                             if (!count($dataItem->find('a[href=?page=' . $p1 . ']'))) {
-                                                echo 'STOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!';
-
+                                                echo 'STOP Фабрика !!!!!!!!!!!!!!!!!!!!!!';
                                                 break;
                                             }
 
                                         }
-                                        break;
+//                                        break;
                                     }
 
                                 }
                                 if (!count($data1->find('a[href=?page=' . $t1 . ']'))) {
-                                    echo 'STOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!';
+                                    echo 'STOP Город !!!!!!!!!!!!!!!!!!!!!!!!!!';
                                     break;
                                 }
                             }
