@@ -128,6 +128,7 @@ class parser
                                                 $result = mysqli_query($dbIS, $sql);
                                                 $row = mysqli_fetch_assoc($result);
                                                 $idUser = $row['AUTO_INCREMENT'];
+
                                                 echo $idUser . ' USER ID<br><hr>';
                                                 $dataItem = str_get_html(request($this->readUrl($factoryLink)));
 
@@ -166,11 +167,16 @@ class parser
                                                 $sql = "INSERT INTO `dvg73_users` (`id`, `name`, `username`, `email`, `registerDate`, `lastvisitDate`) VALUES (NULL, 'user7" . $idUser . "', 'id7" . $idUser . "', '" . $idUser . "@test.ru', now(), now())";
                                                 mysqli_query($dbPortal, $sql);
 
+                                                $sql = 'SELECT AUTO_INCREMENT FROM information_schema.tables WHERE TABLE_NAME = \'dvg73_factories\'';
+                                                $result = mysqli_query($dbIS, $sql);
+                                                $row = mysqli_fetch_assoc($result);
+                                                $idFactory = $row['AUTO_INCREMENT'];
+
                                                 $sql = "INSERT INTO `dvg73_factories` (`id`, `user_id`, `factory_title`, `factory_desc`, `factory_logo`, `factory_address`, `factory_region`, `factory_country`,`factory_website`,`website100`) VALUES (NULL, '" . $idUser . "', '" . $item['title'] . "', '" . $item['description'] . "', '" . $logoFileName . "', '" . $item['address'] . "', '" . $aiTown . "', 'RU', '{\"link\":\"" . $item['site'] . "\"}', '" . $factoryLink100 . "')";
                                                 mysqli_query($dbPortal, $sql);
 
                                                 foreach ($item['phone'][0] as $phone) {
-                                                    $sql = "INSERT INTO `dvg73_phones` (`id`, `factory_id`, `factory_phone`) VALUES (NULL, '" . $idUser . "', '" . $phone . "')";
+                                                    $sql = "INSERT INTO `dvg73_phones` (`id`, `factory_id`, `factory_phone`) VALUES (NULL, '" . $idFactory . "', '" . $phone . "')";
                                                     mysqli_query($dbPortal, $sql);
                                                 }
                                             } else {
@@ -196,7 +202,7 @@ class parser
 //                                                $sql = "INSERT INTO `josrr_user_product` (`id`, `title`, `user_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
 //                                                mysqli_query($dbParser, $sql);
 
-                                                $sql = "INSERT INTO `dvg73_products` (`id`, `product_title`, `factory_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
+                                                $sql = "INSERT INTO `dvg73_products` (`id`, `product_title`, `factory_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idFactory . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
                                                 mysqli_query($dbPortal, $sql);
 
 //                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `storage_table`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_product', '" . $idUser . "', '0', 'free', '#__user_product', '" . $idUser . "', '0', '0', '0', now())";
