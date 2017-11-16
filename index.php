@@ -197,7 +197,6 @@ class parser
 
                                             echo "<hr>";
 
-
                                             if (!count($dataItem->find('a[href=?page=' . $p1 . ']'))) {
                                                 echo 'STOP!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!';
 
