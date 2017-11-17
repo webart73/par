@@ -1,7 +1,7 @@
 <form method="POST">
     <input name="url" type="text"
            value="<?= isset($_REQUEST['url']) ? $_REQUEST['url'] : 'https://www.meb100.ru/navigation#tab_organizations'; ?>"/>
-    <input name="regionNumber" type="text" value="5"/> 27
+    <input name="regionNumber" type="text" value="36"/>
     <input type="submit" value="Пошел">
 </form>
 <?php
@@ -183,44 +183,46 @@ class parser
                                                 $dataItem = str_get_html(request($this->readUrl($factoryLink . '?page=' . $p)));
                                             }
 
-                                            foreach ($dataItem->find('a.ajax-preview') as $a) {
-
-                                                $dataProduct = str_get_html(request($this->readUrl($a->href)));
-
-                                                $itemProduct['title'] = count($dataProduct->find('h1')) ? trim($dataProduct->find('h1', 0)->plaintext) : '';
-                                                $itemProduct['image'] = count($dataProduct->find('div.image-preview > a > img')) ? $dataProduct->find('div.image-preview > a > img', 0) : '';
-                                                $itemProduct['description'] = count($dataProduct->find('div.product-description > p')) ? trim($dataProduct->find('div.product-description > p', 0)->plaintext) : '';
-
-
-//                                                echo '<br/><br/>' . $itemProduct['title'] . '<br/>';
-//                                                echo '<br/><br/>' . $itemProduct['description'] . '<br/>';
-                                                //echo $itemProduct['image'] . '<br/><hr/> ';
-                                                $imgProduct = file_get_contents($itemProduct['image']->src);
-                                                $imgFileName = 'images/products/u' . $idUser . 'p' . $ii . '.png';
-                                                file_put_contents($imgFileName, $imgProduct);
-
-//                                                $sql = "INSERT INTO `josrr_user_product` (`id`, `title`, `user_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
-//                                                mysqli_query($dbParser, $sql);
-
-                                                $sql = "INSERT INTO `dvg73_products` (`id`, `product_title`, `factory_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idFactory . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
-                                                mysqli_query($dbPortal, $sql);
-
-//                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `storage_table`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_product', '" . $idUser . "', '0', 'free', '#__user_product', '" . $idUser . "', '0', '0', '0', now())";
-//                                                mysqli_query($dbParser, $sql);
-
-                                                $ii++;
-
+//                                            foreach ($dataItem->find('a.ajax-preview') as $a) {
+//
+//                                                $dataProduct = str_get_html(request($this->readUrl($a->href)));
+//
+//                                                $itemProduct['title'] = count($dataProduct->find('h1')) ? trim($dataProduct->find('h1', 0)->plaintext) : '';
+//                                                $itemProduct['image'] = count($dataProduct->find('div.image-preview > a > img')) ? $dataProduct->find('div.image-preview > a > img', 0) : '';
+//                                                $itemProduct['description'] = count($dataProduct->find('div.product-description > p')) ? trim($dataProduct->find('div.product-description > p', 0)->plaintext) : '';
+//
+//
+////                                                echo '<br/><br/>' . $itemProduct['title'] . '<br/>';
+////                                                echo '<br/><br/>' . $itemProduct['description'] . '<br/>';
+//                                                //echo $itemProduct['image'] . '<br/><hr/> ';
+//                                                $imgProduct = file_get_contents($itemProduct['image']->src);
+//                                                $imgFileName = 'images/products/u' . $idUser . 'p' . $ii . '.png';
+//                                                file_put_contents($imgFileName, $imgProduct);
+//
+////                                                $sql = "INSERT INTO `josrr_user_product` (`id`, `title`, `user_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idUser . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
+////                                                mysqli_query($dbParser, $sql);
+//
+//                                                $sql = "INSERT INTO `dvg73_products` (`id`, `product_title`, `factory_id`, `product_desc`, `product_image`, `link100`) VALUES (NULL, '" . $itemProduct['title'] . "', '" . $idFactory . "', '" . $itemProduct['description'] . "', '" . $imgFileName . "', 'https://meb100.ru" . $a->href . "')";
+//                                                mysqli_query($dbPortal, $sql);
+//
+////                                                $sql = "INSERT INTO `josrr_cck_core` (`id`, `cck`, `pk`, `pkb`, `storage_location`, `storage_table`, `author_id`, `parent_id`, `store_id`,`download_hits`,`date_time`) VALUES (NULL , 'pf_product', '" . $idUser . "', '0', 'free', '#__user_product', '" . $idUser . "', '0', '0', '0', now())";
+////                                                mysqli_query($dbParser, $sql);
+//
+//                                                $ii++;
+//
+////                                                break;
+//                                            }
+//
+////                                            break;
+//
+//                                            echo "<hr>";
+//
+//                                            if (!count($dataItem->find('a[href=?page=' . $p1 . ']'))) {
+//                                                echo 'STOP Фабрика !!!!!!!!!!!!!!!!!!!!!!';
 //                                                break;
-                                            }
-
-//                                            break;
-
+//                                            }
                                             echo "<hr>";
-
-                                            if (!count($dataItem->find('a[href=?page=' . $p1 . ']'))) {
-                                                echo 'STOP Фабрика !!!!!!!!!!!!!!!!!!!!!!';
-                                                break;
-                                            }
+                                            break;
 
                                         }
 //                                        break;
